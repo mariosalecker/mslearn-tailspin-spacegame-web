@@ -21,7 +21,7 @@ steps:
   displayName: 'Use .NET code 3.1 SDK'
   inputs:
     packageType: sdk
-    version: '$(dotNetVersion)''
+    version: '$(dotNetVersion)'
 
 - task: Npm@1
   displayName: 'Run npm install'
